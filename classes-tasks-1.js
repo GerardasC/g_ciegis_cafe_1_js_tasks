@@ -1,3 +1,45 @@
+class Automobilis {
+  brand;
+  model;
+  price;
+  wat = 20;
+
+   constructor(brand, model, price){
+     this.brand = brand;
+     this.model = model;
+     this.price = price;
+     price = 2;
+   }
+ }
+
+ car1 = new Automobilis('VW', 'Golf', 5000);
+ car2 = new Automobilis('Ford', 'Fiesta', 4000);
+ car3 = new Automobilis('Audi', 'A4', 6000);
+
+console.log(car1);
+console.log(car2);
+console.log(car3);
+
+console.log(car1.model);
+console.log(car2.model);
+console.log(car3.model);
+
+console.log(car1.brand);
+console.log(car2.brand);
+console.log(car3.brand);
+
+console.log(car1.price);
+console.log(car2.price);
+console.log(car3.price);
+
+car1.price = car1.price + 100;
+car2.price = car2.price + 100;
+car3.price = car3.price + 100;
+
+console.log(car1);
+console.log(car2);
+console.log(car3);
+
 /*
 1. Sukurti klasę Automobilis
   - sukurti konstruktorių, su 3 argumentais:
@@ -37,45 +79,3 @@
 6. Po padidinimo, vėl atsispausdinkite objektus ir pažiūrėkite pakitusias Automobilis objektų savybes.
 
 */
-class Automobilis {
-  brand;
-  model;
-  price;
-  wat = 20;
-
-   constructor(brand, model, price){
-     this.brand = brand;
-     this.model = model;
-     this.price = price;
-     price = 2;
-     console.log(wat)
-   }
- }
-
- car1 = new Automobilis('VW', 'Golf', 5000)
- car2 = new Automobilis('Ford', 'Fiesta', 4000)
- car3 = new Automobilis('Audi', 'A4', 6000)
-
-console.log(car1);
-console.log(car2);
-console.log(car3);
-
-console.log(car1.model);
-console.log(car2.model);
-console.log(car3.model);
-
-console.log(car1.brand);
-console.log(car2.brand);
-console.log(car3.brand);
-
-console.log(car1.price);
-console.log(car2.price);
-console.log(car3.price);
-
-car1.price = car1.price + 100;
-car2.price = car2.price + 100;
-car3.price = car3.price + 100;
-
-console.log(car1);
-console.log(car2);
-console.log(car3);
