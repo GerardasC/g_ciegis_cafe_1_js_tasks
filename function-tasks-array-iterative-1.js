@@ -154,7 +154,7 @@ console.groupCollapsed('13. Suformuokite žmonių masyvą, kuriame "name" ir "su
     }
   })
 
-  console.table(result)
+  console.table(result);
 }
 console.groupEnd();
 

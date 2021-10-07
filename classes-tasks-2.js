@@ -1,6 +1,5 @@
 console.groupCollapsed('1. - https://edabit.com/challenge/ZngT4zDckDugt2JGY');
 {
-  
   class Player {
     constructor(name, age, height, weight) {
       this.name = name;
@@ -24,9 +23,9 @@ console.groupCollapsed('1. - https://edabit.com/challenge/ZngT4zDckDugt2JGY');
   
   p1 = new Player("David Jones", 25, 175, 75)
 
-  console.log(p1.getAge())
-  console.log(p1.getHeight())
-  console.log(p1.getWeight())
+  console.log(p1.getAge());
+  console.log(p1.getHeight());
+  console.log(p1.getWeight());
 }
 console.groupEnd();
 
@@ -53,10 +52,10 @@ console.groupCollapsed('2. - https://edabit.com/challenge/yxKoCKemzacK6PECM');
 
 let calculator = new Calculator()
 
-console.log(calculator.add(10, 5)) 
-console.log(calculator.subtract(10, 5))
-console.log(calculator.multiply(10, 5)) 
-console.log(calculator.divide(10, 5))
+console.log(calculator.add(10, 5));
+console.log(calculator.subtract(10, 5));
+console.log(calculator.multiply(10, 5));
+console.log(calculator.divide(10, 5));
 }
 console.groupEnd();
 
@@ -64,8 +63,8 @@ console.groupCollapsed('3. - https://edabit.com/challenge/kGLhgwGaLJsCMS7wS');
 {
   class Employee {
     constructor (firstname, lastname) {
-      this.firstname = firstname
-      this.lastname = lastname
+      this.firstname = firstname;
+      this.lastname = lastname;
     }
 
     get fullname() {
@@ -77,14 +76,14 @@ console.groupCollapsed('3. - https://edabit.com/challenge/kGLhgwGaLJsCMS7wS');
     }
   }
 
-  emp1 = new Employee("John", "Smith")
-  console.log(emp1.fullname)
+  emp1 = new Employee("John", "Smith");
+  console.log(emp1.fullname);
 
-  emp2 = new Employee("Mary",  "Sue")
-  console.log(emp2.email)
+  emp2 = new Employee("Mary",  "Sue");
+  console.log(emp2.email);
 
-  emp3 = new Employee("Antony", "Walker")
-  console.log(emp3.firstname)
+  emp3 = new Employee("Antony", "Walker");
+  console.log(emp3.firstname);
 }
 console.groupEnd();
 
@@ -121,8 +120,8 @@ console.groupCollapsed('5. - https://edabit.com/challenge/Hgb38yhWGwJCMHbRQ');
 {
   class Rectangle {
     constructor(sideA, sideB) {
-      this.sideA = sideA
-      this.sideB = sideB
+      this.sideA = sideA;
+      this.sideB = sideB;
     }
     getArea(){return this.sideA*this.sideB}
     getPerimeter(){return (this.sideA + this.sideB) *2}
@@ -258,9 +257,9 @@ console.groupCollapsed('10. - https://edabit.com/challenge/s5Sz2ovKsvtGxNGgn');
     }
 
   }
-  var PP = new Book("Pride and Prejudice","Jane Austen")
-  var H = new Book("Hamlet","William Shakespeare")
-  var WP = new Book("War and Peace","Leo Tolstoy")
+  var PP = new Book("Pride and Prejudice","Jane Austen");
+  var H = new Book("Hamlet","William Shakespeare");
+  var WP = new Book("War and Peace","Leo Tolstoy");
 
   console.log(H.title);
   console.log(H.author);

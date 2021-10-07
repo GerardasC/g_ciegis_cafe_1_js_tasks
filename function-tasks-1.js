@@ -1,10 +1,10 @@
-const masyvas = ['a', 'b', 'c', 'd']
-const masyvas2 = ['a', 'b', 'c', 'd']
+const masyvas = ['a', 'b', 'c', 'd'];
+const masyvas2 = ['a', 'b', 'c', 'd'];
 
 console.groupCollapsed('1. Parašykite funkciją, kuri grąžina pirmą masyvo elementą.');
 {
   const uzd1 = (masyvas) => masyvas[0];
-  console.log(uzd1(masyvas))
+  console.log(uzd1(masyvas));
 }
 console.groupEnd();
 
@@ -12,14 +12,14 @@ console.groupCollapsed('2. Parašykite funkciją, kuri pašalina pirmą masyvo e
 {
   
   const uzd2 = (masyvas2) => masyvas2.shift();
-  console.log(uzd2(masyvas2))
+  console.log(uzd2(masyvas2));
 }
 console.groupEnd();
 
 console.groupCollapsed('3. Parašykite funkciją, kuri grąžina paskutinį masyvo elementą.');
 {
   const uzd3 = (masyvas) => masyvas[masyvas.length - 1]
-  console.log(uzd3(masyvas))
+  console.log(uzd3(masyvas));
 }
 console.groupEnd();
 
@@ -37,14 +37,14 @@ console.groupCollapsed('5. Parašykite funkciją, kuri grąžina elementų kiek�
   function uzd5 (masyvas) {
     return masyvas.length
   }
-  console.log(uzd5(masyvas))
+  console.log(uzd5(masyvas));
 }
 console.groupEnd();
 
 console.groupCollapsed('6. Parašykite funkciją, kuri atspausdina paskutinio masyvo elemento indeksą');
 {
   function uzd6 (masyvas) {
-    console.log(masyvas.length - 1)
+    console.log(masyvas.length - 1);
   }
   uzd6(masyvas);
 }
@@ -84,7 +84,7 @@ console.groupCollapsed('10. Parašykite funkciją, kuri atspausdina masyvo eleme
       console.log(masyvas[i])
     }
   }
-  uzd10(masyvas)
+  uzd10(masyvas);
   
 }
 console.groupEnd();
@@ -96,7 +96,7 @@ console.groupCollapsed('11. Parašykite funkciją, kuri atspausdina kiekvieno ma
     masyvas.forEach((_, i) => indexes = indexes + i  + ' ');
     return indexes;
   }
-  console.log(uzd11(masyvas))
+  console.log(uzd11(masyvas));
 }
 console.groupEnd();
 
@@ -107,7 +107,7 @@ console.groupCollapsed('12. Parašykite funkciją, kuri atspausdina kiekvieno ma
     masyvas.forEach((e) => indexes = indexes + e + ' ');
     return indexes;
   }
-  console.log(uzd11(masyvas))
+  console.log(uzd11(masyvas));
 }
 console.groupEnd();
 
@@ -119,6 +119,6 @@ console.groupCollapsed('13. Parašykite funkciją, kuri atspausdina kiekvieno ma
     masyvas.forEach((e, i) => indexes = indexes + `[${i}]=>${e} `);
     return indexes;
   }
-  console.log(uzd11(masyvas))
+  console.log(uzd11(masyvas));
 }
 console.groupEnd();
